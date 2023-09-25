@@ -1,0 +1,296 @@
+@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+.nanummyeongjo * {
+ font-family: 'Nanum Myeongjo', serif;
+}
+
+.main_banner {
+    position: relative;
+    padding: 166px 0 44px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.main_banner h2 {
+    font-size: 78px;
+    font-weight: 900;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #232323;
+    line-height: 1.192;
+}
+
+.main_banner p {
+    padding: 52px 0 71px;
+    font-size: 36px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 1;
+}
+
+.foreword {
+    position: absolute;
+    left: 78px;
+    top: 60px;
+    line-height: 0;
+}
+
+.swiper {
+    overflow: hidden;
+}
+
+.banner_swiper .swiper-slide {
+    line-height: 0;
+}
+
+.main_item1 {
+    padding: 122px 0 125px;
+    background-color: #fdf8f4;
+}
+
+.parent_box {
+    position: relative;
+    padding-bottom: 122px;
+    text-align: center;
+}
+
+.parent_box::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: calc(100% - 140px);
+    height: 2px;
+    margin: auto;
+    background-color: #dbdbdb;
+}
+
+.parent_box li {
+    font-weight: bold;
+    color: #232323;
+    font-size: 30px;
+}
+
+.parent_box li + li {
+    margin-top: 45px;
+}
+
+.parent_box li strong {
+    font-size: 45px;
+}
+
+.place_box {
+    padding-top: 77px;
+}
+
+.place_box p {
+    font-size: 43px;
+    color: #232323;
+    text-align: center;
+    line-height: 1.442;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.place_box p span {
+    display: block;
+    font-size: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.main_item2 {
+    padding: 80px 0 124px;
+    text-align: center;
+}
+
+.main_item2 > div {
+
+}
+
+.main_item2 > div + div {
+    margin-top: 124px;
+}
+
+.main_item2 h2 {
+    padding-bottom: 44px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #232323;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.tel_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 38px;
+}
+
+.tel_box dt {
+    padding-bottom: 62px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #232323;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.tel_box dd {
+    display: flex;
+}
+
+.tel_box dd a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.tel_box dd a + a {
+    margin-left: 60px;
+}
+
+.main_item3 {
+    background-color: #fdf8f4;
+}
+
+.wedding_text {
+    position: relative;
+    padding: 72px 0 112px;
+    text-align: center;
+}
+
+.wedding_text::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: calc(100% - 140px);
+    height: 2px;
+    margin: auto;
+    background-color: #dbdbdb;
+}
+
+.wedding_text .greeting {
+    display: block;
+    padding-bottom: 58px;
+    line-height: 0;
+}
+
+.wedding_text h2,
+.account_box h2 {
+    padding-bottom: 68px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #232323;
+}
+
+.wedding_text p {
+    font-size: 36px;
+    line-height: 1.667;
+    color: #232323;
+}
+
+.account_box {
+    padding: 86px 0 80px;
+    text-align: center;
+}
+
+.account_box h2 {
+    padding-bottom: 60px;
+}
+
+.account_box dl {
+    padding-bottom: 80px;
+}
+  
+.account_box dt {
+    padding-bottom: 44px;
+    font-size: 30px;
+    line-height: 1;
+    color: #232323;
+    font-weight: bold;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.account_box li {
+    font-size: 32px;
+    color: #232323;
+    font-weight: bold;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.account_box li + li {
+    margin-top: 32px;
+}
+
+.account_box li strong {
+    font-weight: 900;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 42px;
+}
+
+.main_item4 {
+    padding: 122px 0;
+    text-align: center;
+}
+
+.main_item4 h2 {
+    padding-bottom: 112px;
+    line-height: 1;
+    font-size: 32px;
+    font-weight: bold;
+    color: #232323;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.map_wrap {
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.root_daum_roughmap {
+    width: 100% !important; 
+}
+
+.map_wrap h3 {
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #232323;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.map_wrap p {
+    padding-top: 40px;
+    font-size: 32px;
+}
+
+.map_wrap p strong {
+    display: block;
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #999;
+}
+
+a.btn_tel {
+    display: block;
+    width: calc(100% - 80px);
+    height: 80px;
+    margin: 40px auto 0;
+    border-radius: 50px;
+    line-height: 78px;
+    font-weight: 600;
+    border: 1px solid #000;
+}
+
+#footer {
+    padding: 30px 0;
+    background-color: #21242d;
+}
+
+.copy {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
